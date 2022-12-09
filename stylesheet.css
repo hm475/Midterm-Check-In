@@ -1,0 +1,150 @@
+html {
+  background-color: rgb(49,49,49);
+  color: #E3E3E3;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 5px;
+  font-family: monospace;
+  margin: 20px auto 40px auto;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  margin: auto auto 0px 25px;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 5px;
+  margin: 60px auto 20px auto;
+}
+
+h4 {
+  font-size: 40px;
+  line-height: 5px;
+  padding: 10px auto auto auto;
+  margin: 20px 0px;
+  color: black;
+}
+
+p {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0px 100px 0px 100px;
+}
+
+p2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+p4 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: auto auto 10px auto;
+  color: black;
+}
+
+ol {
+  list-style-position: inside;
+  font-size: 24px;
+  padding-right: 65px;
+  text-align: left;
+  margin: 0px auto auto 25px;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-position: inside;
+  list-style-type: square;
+  font-size: 24px;
+  padding-right: 65px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+.column-list {
+  column-count: 3;
+}
+
+a:link {
+  color: #99C7E2;
+}
+
+a:hover {
+  color:#aee0fd;
+}
+
+a:active {
+  color:#7192a5;
+}
+
+a:visited {
+  color:aqua;
+}
+
+.selfie {
+  box-shadow: 0px 0px 25px rgb(134, 134, 134);
+ max-width: fit-content;
+ max-height: 376px;
+ margin: 0px auto 0px auto;
+}
+
+img {
+  padding-top: 0px;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 711px 300px 278px;
+  grid-template-rows: 230px 187px;
+  grid-template-areas:
+    'moonlight name desert'
+    'moonlight fruit desert';
+    gap: 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.item-a {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+.item-b {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item-c {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+}
+
+.item-d {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+}
+
+.contact {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(207, 212, 218);
+  background-color: rgb(134, 139, 145);
+  color: rgb(207, 212, 218);
+  width: 350px;
+  margin: 25px auto 25px auto;
+}
