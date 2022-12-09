@@ -107,14 +107,15 @@ img {
 .container {
   display: grid;
   justify-content: center;
-  grid-template-columns: 711px 300px 278px;
-  grid-template-rows: 230px 187px;
+  grid-template-columns: 44.4375em 18.75em 17.375em;
+  grid-template-rows: 14.375em 11.6875em;
   grid-template-areas:
     'moonlight name desert'
     'moonlight fruit desert';
     gap: 0.625em 0.625em;
     margin-top: 1.875em;
     margin-bottom: 1.25em;
+    max-width: 80%;
 }
 
 .item-a {
