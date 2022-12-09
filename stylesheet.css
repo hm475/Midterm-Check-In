@@ -4,9 +4,14 @@ html {
   text-align: center;
 }
 
+body {
+  font-size: 16px;
+  line-height: 1;
+}
+
 h1 {
   font-size: 2.5em;
-  line-height: 0.3125em;
+  line-height: 1em;
   font-family: monospace;
   margin: 1.25em auto 1em auto;
 }
@@ -19,13 +24,13 @@ h2 {
 
 h3 {
   font-size: 2.5em;
-  line-height: .3125em;
+  line-height: 1em;
   margin: 2em auto .5em auto;
 }
 
 h4 {
   font-size: 2.5em;
-  line-height: 0.3125em;
+  line-height: 1em;
   padding: 0.625em auto auto auto;
   margin: .75em 0;
   color: black;
