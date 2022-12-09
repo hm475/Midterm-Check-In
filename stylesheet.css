@@ -108,8 +108,8 @@ img {
   display: grid;
   justify-content: center;
   align-items: stretch;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 50% 50%;
   grid-template-areas:
     'moonlight name desert'
     'moonlight fruit desert';
