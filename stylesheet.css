@@ -14,27 +14,27 @@ h1 {
 h2 {
   font-size: 1.25em;
   text-align: left;
-  margin: auto auto 0px 1.5625em;
+  margin: auto auto 0 1.5625em;
 }
 
 h3 {
   font-size: 2.5em;
   line-height: .3125em;
-  margin: 2em auto 1em auto;
+  margin: 2em auto .5em auto;
 }
 
 h4 {
   font-size: 2.5em;
   line-height: 0.3125em;
   padding: 0.625em auto auto auto;
-  margin: 1.25em 0px;
+  margin: .75em 0;
   color: black;
 }
 
 p {
   font-size: 1.5em;
   line-height: 2.25em;
-  margin: 0px 6.25em 0px 6.25em;
+  margin: 0 6.25em 0 6.25em;
 
 }
 
@@ -45,7 +45,7 @@ p2 {
 
 p4 {
   font-size: 1.5em;
-  line-height: 2.25em;
+  line-height: 1.5em;
   padding: auto auto 0.625em auto;
   color: black;
 }
@@ -55,7 +55,7 @@ ol {
   font-size: 1.5em;
   padding-right: 4.0625em;
   text-align: left;
-  margin: 0px auto auto 1.5625em;
+  margin: 0 auto auto 1.5625em;
 }
 
 ul {
@@ -63,9 +63,9 @@ ul {
   list-style-position: inside;
   list-style-type: square;
   font-size: 1.5em;
-  padding-right: 4.0625em;
-  line-height: 1.875em;
-  margin-top: 0px;
+  padding-right: 2.75em;
+  line-height: 1.5em;
+  margin-top: 0;
 }
 
 .column-list {
@@ -89,14 +89,14 @@ a:visited {
 }
 
 .selfie {
-  box-shadow: 0px 0px 1.5625em rgb(134, 134, 134);
+  box-shadow: 0 0 1.5625em rgb(134, 134, 134);
  max-width: fit-content;
  max-height: 23.5em;
- margin: 0px auto 0px auto;
+ margin: 0 auto 0 auto;
 }
 
 img {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .container {
