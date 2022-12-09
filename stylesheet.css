@@ -39,9 +39,9 @@ h4 {
 p {
   font-size: 1.5em;
   line-height: 2.25em;
-  margin-left: 10%;
   max-width: 80%;
-
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 p2 {
