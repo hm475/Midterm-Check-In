@@ -5,65 +5,66 @@ html {
 }
 
 h1 {
-  font-size: 40px;
-  line-height: 5px;
+  font-size: 2.5em;
+  line-height: 0.3125em;
   font-family: monospace;
-  margin: 20px auto 40px auto;
+  margin: 1.25em auto 2.5em auto;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 1.25em;
   text-align: left;
-  margin: auto auto 0px 25px;
+  margin: auto auto 0px 1.5625em;
 }
 
 h3 {
-  font-size: 40px;
-  line-height: 5px;
-  margin: 60px auto 20px auto;
+  font-size: 2.5em;
+  line-height: .3125em;
+  margin: 3.75em auto 1.25em auto;
 }
 
 h4 {
-  font-size: 40px;
-  line-height: 5px;
-  padding: 10px auto auto auto;
-  margin: 20px 0px;
+  font-size: 2.5em;
+  line-height: 0.3125em;
+  padding: 0.625em auto auto auto;
+  margin: 1.25em 0px;
   color: black;
 }
 
 p {
-  font-size: 24px;
-  line-height: 36px;
-  margin: 0px 100px 0px 100px;
+  font-size: 1.5em;
+  line-height: 2.25em;
+  margin: 0px 6.25em 0px 6.25em;
+
 }
 
 p2 {
-  font-size: 18px;
+  font-size: 1.125em;
   font-style: italic;
 }
 
 p4 {
-  font-size: 24px;
-  line-height: 36px;
-  padding: auto auto 10px auto;
+  font-size: 1.5em;
+  line-height: 2.25em;
+  padding: auto auto 0.625em auto;
   color: black;
 }
 
 ol {
   list-style-position: inside;
-  font-size: 24px;
-  padding-right: 65px;
+  font-size: 1.5em;
+  padding-right: 4.0625em;
   text-align: left;
-  margin: 0px auto auto 25px;
+  margin: 0px auto auto 1.5625em;
 }
 
 ul {
   font-family: Arial, Helvetica, sans-serif;
   list-style-position: inside;
   list-style-type: square;
-  font-size: 24px;
-  padding-right: 65px;
-  line-height: 30px;
+  font-size: 1.5em;
+  padding-right: 4.0625em;
+  line-height: 1.875em;
   margin-top: 0px;
 }
 
@@ -88,9 +89,9 @@ a:visited {
 }
 
 .selfie {
-  box-shadow: 0px 0px 25px rgb(134, 134, 134);
+  box-shadow: 0px 0px 1.5625em rgb(134, 134, 134);
  max-width: fit-content;
- max-height: 376px;
+ max-height: 23.5em;
  margin: 0px auto 0px auto;
 }
 
@@ -106,9 +107,9 @@ img {
   grid-template-areas:
     'moonlight name desert'
     'moonlight fruit desert';
-    gap: 10px 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    gap: 0.625em 0.625em;
+    margin-top: 1.875em;
+    margin-bottom: 1.25em;
 }
 
 .item-a {
@@ -141,10 +142,10 @@ img {
 
 .contact {
   border-style: solid;
-  border-width: 5px;
+  border-width: 0.3125em;
   border-color: rgb(207, 212, 218);
   background-color: rgb(134, 139, 145);
   color: rgb(207, 212, 218);
-  width: 350px;
-  margin: 25px auto 25px auto;
+  width: 21.875em;
+  margin: 1.5625em auto 1.5625em auto;
 }
