@@ -1,0 +1,106 @@
+html {
+  background-color: rgb(49,49,49);
+  color: #E3E3E3;
+  text-align: center;
+}
+
+h1, h3, h4, h5 {
+  font-size: 40px;
+  line-height: 5px;
+  margin: 40px auto 0px auto;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  margin: auto 0px;
+}
+
+h6 {
+  font-size: 40px;
+  line-height: 5px;
+  padding: 10px auto auto auto;
+  margin: 20px 0px;
+  color: black;
+}
+
+p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 40px;
+}
+
+p2 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+p6 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: auto auto 10px auto;
+  color: black;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+  font-size: 24px;
+  padding-right: 65px;
+  line-height: 30px;
+}
+
+ol {
+  list-style-position: inside;
+  font-size: 24px;
+  padding-right: 65px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+a:link {
+  color: #99C7E2;
+}
+
+a:hover {
+  color:#aee0fd;
+}
+
+a:active {
+  color:#7192a5;
+}
+
+a:visited {
+  color:aqua;
+}
+
+img {
+  box-shadow: 0px 0px 25px rgb(134, 134, 134);
+  margin: 40px auto auto auto;
+}
+
+div {  
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(207, 212, 218);
+  background-color: rgb(134, 139, 145);
+  color: rgb(207, 212, 218);
+  width: 350px;
+  margin: 0px auto;}
+
+.border {
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(207, 212, 218);
+}
+
+.wrapper {
+  background-color: rgb(134, 139, 145);
+  color: rgb(207, 212, 218);
+  width: 350px;
+  margin: 0px auto 25px auto;
+}
